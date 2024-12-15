@@ -1,5 +1,6 @@
 package com.RestaurantReservation;
 
+import com.RestaurantReservation.domain.entities.Restaurant;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
