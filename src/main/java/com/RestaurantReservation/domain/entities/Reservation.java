@@ -5,7 +5,6 @@ import jakarta.persistence.Id;
 import lombok.Data;
 import org.hibernate.annotations.UuidGenerator;
 
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Data
@@ -15,8 +14,8 @@ public class Reservation {
     @UuidGenerator
     private UUID id;
 
-    private Long restaurantId;
+    private UUID restaurantId;
     private String customerName;
-    private LocalDateTime dateTime;
+    private String dateTime;
     private int numberOfPeople;
 }

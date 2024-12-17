@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class SearchRestaurantUseCase {
+public class GetRestaurantUseCase {
     private final RestaurantRepository repository;
 
-    public SearchRestaurantUseCase(RestaurantRepository repository) {
+    public GetRestaurantUseCase(RestaurantRepository repository) {
         this.repository = repository;
     }
 

@@ -14,7 +14,7 @@ public class Review {
     @UuidGenerator
     private UUID id;
 
-    private Long restaurantId;
+    private UUID restaurantId;
     private String comment;
     private int score;
 }
