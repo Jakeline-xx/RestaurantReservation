@@ -1,7 +1,7 @@
 package com.RestaurantReservation.application.usecases;
 
 import com.RestaurantReservation.domain.entities.Review;
-import com.RestaurantReservation.infra.repository.ReviewRepository;
+import com.RestaurantReservation.infra.repositories.ReviewRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

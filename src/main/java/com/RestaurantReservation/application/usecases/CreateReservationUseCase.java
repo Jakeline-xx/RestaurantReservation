@@ -1,7 +1,7 @@
 package com.RestaurantReservation.application.usecases;
 
 import com.RestaurantReservation.domain.entities.Reservation;
-import com.RestaurantReservation.infra.repository.ReservationRepository;
+import com.RestaurantReservation.infra.repositories.ReservationRepository;
 import org.springframework.stereotype.Component;
 
 @Component

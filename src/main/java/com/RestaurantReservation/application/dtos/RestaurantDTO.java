@@ -1,17 +1,29 @@
 package com.RestaurantReservation.application.dtos;
 
 import com.RestaurantReservation.domain.entities.Restaurant;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
+
 
 @Data
 @Component
+@NoArgsConstructor
+@AllArgsConstructor
 public class RestaurantDTO {
     private String name;
     private String location;
     private String typeOfKitchen;
     private String openingHours;
     private int capacity;
+
+    public RestaurantDTO(String name, String location, String typeOfKitchen) {
+        this.name = name;
+        this.location = location;
+        this.typeOfKitchen = typeOfKitchen;
+    }
+
 
     public Restaurant toEntity() {
         var restaurant = new Restaurant();

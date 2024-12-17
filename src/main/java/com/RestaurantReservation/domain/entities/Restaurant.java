@@ -1,14 +1,19 @@
 package com.RestaurantReservation.domain.entities;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.annotations.UuidGenerator;
 
 import java.util.UUID;
 
 @Data
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 public class Restaurant {
     @Id
     @UuidGenerator
@@ -20,4 +25,9 @@ public class Restaurant {
     private String openingHours;
     private int capacity;
 
+    public Restaurant(String name, String location, String typeOfKitchen) {
+        this.name = name;
+        this.location = location;
+        this.typeOfKitchen = typeOfKitchen;
+    }
 }

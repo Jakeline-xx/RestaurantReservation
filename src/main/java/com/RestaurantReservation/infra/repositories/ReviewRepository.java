@@ -1,6 +1,5 @@
-package com.RestaurantReservation.infra.repository;
+package com.RestaurantReservation.infra.repositories;
 
-import com.RestaurantReservation.domain.entities.Reservation;
 import com.RestaurantReservation.domain.entities.Review;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

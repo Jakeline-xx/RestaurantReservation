@@ -3,7 +3,7 @@ package com.RestaurantReservation.applicartion.usecases;
 
 import com.RestaurantReservation.application.usecases.GetReviewsByRestaurantIdUseCase;
 import com.RestaurantReservation.domain.entities.Review;
-import com.RestaurantReservation.infra.repository.ReviewRepository;
+import com.RestaurantReservation.infra.repositories.ReviewRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

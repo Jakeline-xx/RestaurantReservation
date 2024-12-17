@@ -1,13 +1,17 @@
 package com.RestaurantReservation.application.dtos;
 
 import com.RestaurantReservation.domain.entities.Review;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.util.UUID;
 
 @Data
 @Component
+@NoArgsConstructor
+@AllArgsConstructor
 public class ReviewDTO {
     private UUID restaurantId;
     private String comment;

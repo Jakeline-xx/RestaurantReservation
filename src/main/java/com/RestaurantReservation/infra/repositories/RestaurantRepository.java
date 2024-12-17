@@ -1,4 +1,4 @@
-package com.RestaurantReservation.infra.repository;
+package com.RestaurantReservation.infra.repositories;
 
 
 import com.RestaurantReservation.domain.entities.Restaurant;
