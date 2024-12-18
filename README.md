@@ -1,8 +1,8 @@
-# Restaurant Reservation System
+# Restaurant Reservation 
 
 ## Descrição
 
-O projeto **Restaurant Reservation System** é uma aplicação para gerenciamento de reservas e avaliações de restaurantes. Ele permite que os usuários realizem tarefas como cadastrar restaurantes, gerenciar avaliações e buscar informações de forma eficiente. O sistema é desenvolvido em Java com o Spring Boot e segue uma arquitetura modular para facilitar a expansão e manutenção.
+O projeto **Restaurant Reservation** é uma aplicação para gerenciamento de reservas e avaliações de restaurantes. Ele permite que os usuários realizem tarefas como cadastrar restaurantes, gerenciar avaliações e buscar informações de forma eficiente.
 
 ---
 
@@ -38,7 +38,7 @@ O projeto **Restaurant Reservation System** é uma aplicação para gerenciament
 
 1. **Clone o Repositório**:
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/Jakeline-xx/RestaurantReservation.git
    cd restaurant-reservation
    ```
 
