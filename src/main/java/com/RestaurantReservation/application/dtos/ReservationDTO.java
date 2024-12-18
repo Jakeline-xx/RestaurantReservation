@@ -1,10 +1,8 @@
 package com.RestaurantReservation.application.dtos;
 
 import com.RestaurantReservation.domain.entities.Reservation;
-import com.RestaurantReservation.domain.entities.Restaurant;
 import lombok.Data;
 
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Data
